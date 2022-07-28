@@ -1,0 +1,192 @@
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  overflow: auto;
+  display: inline;
+}
+
+.searchBar{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 35px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Active/current link */
+.navbar a.activeRight {
+  background-color: #666;
+  color: white;
+  float: right;
+}
+
+.navbar input[type=text] {
+  float: left;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+.catbar a {
+  float: left;
+  display: block;
+  color: black;
+  position: fixed;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+/* CATEGORY BAR */
+.catbar a.right {
+  float: right;
+}
+
+.catbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  
+  text-align: center;
+  
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+	margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  font-size: 17px;
+  padding-right: 20px;
+  padding-left: 20px;
+   
+}
+.side a {
+float: center;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px 30px;
+  
+}
+.side a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 30px;
+  width: 600px;
+  display: inline;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+.right{
+	float: right;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  text-align: center;
+  font-family: arial;
+  display: inline;
+  width: 10px;
+  height: 267px;
+  margin: 15px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: bottom;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  
+}
+.card img {
+  border-radius: 2px;
+  height: 120px;
+  width: 120px;
+  
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
